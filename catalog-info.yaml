@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: TODO-figure-out-unique-name
+  description: New FastAPI API
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: default:guest
+  definition:
+    $text: ./openapi.json # If openapi spec is moved, update here as well!
